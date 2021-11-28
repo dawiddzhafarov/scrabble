@@ -5,6 +5,8 @@ import javafx.scene.layout.Pane;
 public class LetterField extends Field{
     private boolean isTouched;
 
+    public Letter letter;
+
     public boolean isTouched() {
         return isTouched;
     }

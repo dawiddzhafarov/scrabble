@@ -8,6 +8,7 @@ import javafx.scene.layout.Pane;
 
 public class Field {
 
+    public boolean isModified;
     private int wordBonus = 0;
 
     private int letterBonus = 0;
@@ -32,7 +33,7 @@ public class Field {
         creatorButton.setPrefSize(28,28);
         creatorButton.setStyle("-fx-background-color:"+color);
         setButton(creatorButton);
-
+        isModified = false;
         setLocation(x, y);
         addToLayer();
     }
