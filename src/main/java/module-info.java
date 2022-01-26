@@ -7,4 +7,7 @@ module com.example.scrabble {
 
     opens com.example.scrabble to javafx.fxml;
     exports com.example.scrabble;
+    opens com.example.scrabble.Controllers;
+    exports com.example.scrabble.Controllers to javafx.fxml;
+
 }

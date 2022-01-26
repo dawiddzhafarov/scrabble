@@ -9,9 +9,9 @@ import javafx.scene.layout.Pane;
 public class Field {
 
     public boolean isModified;
-    private int wordBonus = 0;
+    private int wordBonus = 1;
 
-    private int letterBonus = 0;
+    private int letterBonus = 1;
 
     private Pane layer;
 
